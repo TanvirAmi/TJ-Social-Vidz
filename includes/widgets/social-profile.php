@@ -13,6 +13,7 @@ class TJ_Social_Profile extends WP_Widget {
 
 	function widget( $args, $instance ) {
 		extract($args);
+		echo $before_widget;
 		$feedburner_id = $instance['feedburner_id'];
 		$twitter_id = $instance['twitter_id'];
 		$facebook_id = $instance['facebook_id'];
