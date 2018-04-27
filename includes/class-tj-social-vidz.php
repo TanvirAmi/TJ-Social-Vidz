@@ -123,9 +123,14 @@ class Tj_Social_Vidz {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-tj-social-vidz-public.php';
 
 		/**
-		 * Include social widget
+		 * Include social profile widget
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/widgets/social-profile.php';
+
+		/**
+		 * Include video widget
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/widgets/widget-video.php';
 
 
 		$this->loader = new Tj_Social_Vidz_Loader();

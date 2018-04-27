@@ -4,17 +4,19 @@
  */
  .social-icons {
     background: #f7f7f7;
-    border: 1px solid red;
+    border: 1px solid #e6e6e6;
     margin: 0 0 20px 0;
     padding: 15px 15px 5px 15px;
 }
 .social-icons li {
     float: left;
-    width: 90px;
-    height: 33px;
+    width: 80px;
+    height: 50px;
     line-height: 1.3;
     margin: 0 0 10px 0;
-    padding: 3px 0 0 38px;
+    padding: 8px 0 0 60px;
+    list-style: none;
+    font-weight: bold;
 }
 .social-icons li span {
     color: #999;
@@ -22,5 +24,55 @@
     font-size: 11px;
 }
 .social-icons .icon-facebook {
-    background: url(../img/fb.png) no-repeat 0 0;
+    background: url(../img/ico-facebook.png) no-repeat 0 0;
+}
+.social-icons .icon-rss {
+    background: url(../img/ico-rss.png) no-repeat 0 0;
+}
+.social-icons .icon-twitter {
+    background: url(../img/ico-twitter.png) no-repeat 0 0;
+}
+.social-icons .icon-youtube {
+    background: url(../img/ico-youtube.png) no-repeat 0 0;
+}
+.tj-video .open {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 15px 15px 9px 15px;
+}
+.tj-video .open .description {
+    color: #999;
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    font-style: italic;
+}
+.tj-video .hide {
+    display: none;
+}
+.tj-video li a {
+    font-weight: normal;
+}
+iframe, embed, object, video {
+    max-width: 100%;
+    width: 100%;
+}
+.tj-video li {
+    background: url(../img/ico-video.png) no-repeat 14px 4px !important;
+    padding-left: 37px !important;
+    padding-top: 3px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+#video-widget-1,
+#video-widget-2,
+#video-widget-3,
+#video-widget-4,
+#video-widget-5,
+#video-widget-6,
+#video-widget-7,
+#video-widget-8,
+#video-widget-9,
+#video-widget-10{
+	background: #F7F7F7;
+	padding-top: 5px;
 }
